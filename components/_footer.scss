@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap');
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/maps";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer__index {
+    grid-area: footer;
+    margin-top: 10rem;
+    padding: 2rem;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    @include display (flex, center, center);
+    background-color: map-get($footer, color-fondo);
+
+    
+            i {
+                font-size: 20px;
+                padding: 1rem;
+                color: white;
+            }
+}

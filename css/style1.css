@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar {
+    border-bottom: 1px  solid rgb(56, 182, 52);
+    font-weight: 600;
+    padding: 20px;
+    
+}
+
+/*Index*/
+
+/*Index "main"*/
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Index "section"*/
+
+.section__titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Página "EL Negocio"*/
+
+/*Main "El Negocio"*/
+
+.table {
+    margin-top: 50px;
+}
+
+/*Section "El Negocio"*/
+.section__elnegocio .related-post {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    height: 120px;
+    border-radius: 15px;
+    margin: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    
+}
+.section__elnegocio .related-post:hover {
+    cursor: pointer;
+    color: black;
+    background: rgb(56, 182, 52);
+}
+
+/*Página "Galería"*/
+
+.titulo__galeria {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+/*Pàgina "Contacto"*/
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Pàgina "Nosotros"*/
+
+.titulo__nosotros {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+/*Hover*/
+
+.nav-link:hover {
+    color: rgb(56, 182, 52) !important;
+}
+.btn-link:hover {
+    
+        color: rgb(56, 182, 52) !important;
+}

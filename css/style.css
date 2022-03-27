@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container__index {
+  display: grid;
+  grid-template-areas: "header header header header" "main main aside aside" "section section section section" "footer footer footer footer";
+}
+
+.header__index {
+  grid-area: header;
+  border-bottom: 1px solid #38b634;
+  /*display: flex;
+  justify-content: space-between;
+  align-items: center;*/
+  padding-right: 2rem;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(2px);
+}
+.header__index li {
+  display: inline-block;
+  padding: 2rem;
+  font-weight: 600;
+}
+.header__index li a {
+  text-decoration: none;
+  color: black;
+}
+.header__index li a:hover {
+  color: #38b634;
+}
+.header__index .header__logo {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main__index {
+  grid-area: main;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 4rem;
+  margin-left: 30px;
+}
+.main__index p {
+  font-size: 60px;
+  font-weight: 600;
+}
+.main__index h1 {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  font-weight: 300;
+}
+.main__index button {
+  margin-top: 2rem;
+  background-color: grey;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.section__index, .header__index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.aside__index {
+  grid-area: aside;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 4rem;
+  margin-right: 20px;
+}
+.aside__index img {
+  width: 90%;
+  padding: 1rem;
+}
+
+.section__index, .header__index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__index {
+  grid-area: section;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+.section__index article {
+  width: 300px;
+  background-color: #38b634;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.section__index article:hover {
+  background-color: gray;
+}
+.section__index article i {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 1rem;
+}
+.section__index article p {
+  margin-top: 1.5rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__index {
+  grid-area: footer;
+  margin-top: 10rem;
+  padding: 2rem;
+  /*display: flex;
+  justify-content: space-between;
+  align-items: center;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38b634;
+}
+.footer__index i {
+  font-size: 20px;
+  padding: 1rem;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
