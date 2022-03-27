@@ -154,4 +154,10 @@ body {
   color: white;
 }
 
+.header__index, .section__index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
